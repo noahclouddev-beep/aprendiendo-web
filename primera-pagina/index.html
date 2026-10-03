@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset = "UTF-8">
+    <title>Cambio de titulo</title>
+    
+</head>
+        <h1>Hola claude</h1>
+        <p>esta es mi primera pagina </p>
+        <input type="text" id="edad" placeholder="Escribe tu texto">
+        <button id="tutex">pulsa para tu texto</button>
+        <script>
+            const boton = document.getElementById("tutex");
+            const cajaTexto = document.getElementById("edad");
+
+            boton.addEventListener("click", function () {
+            const texto = cajaTexto.value;
+
+            if (texto === "") {
+                alert("¡No escribiste nada!");
+        }   else {
+                alert("Escribiste: " + texto + texto );
+            }
+        });
+        </script>
+    </body>
+</html>
