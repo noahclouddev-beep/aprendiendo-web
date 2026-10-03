@@ -14,7 +14,7 @@ console.log(`El precio final es ${precioFinal}`);
 
 
 if (edad >= 18) {
-    console.log("ya eres mayor de edad, ya tienes que sacar tu ine");
+    console.log("ya eres mayor de edad, ya tienes que sacar tus documentos"); 
 } else {
     console.log("Eres menor de edad.");
 }
